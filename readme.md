@@ -1,3 +1,120 @@
+## Arrays Problems That you must solved
+### **Funny List**
+  
+#### **1. Candy Distribution**  
+- **Scenario:** You have an array where each element represents candies collected by kids. Write a program to find the kid with the most candies.  
+- **Input Example:** `[2, 5, 7, 1, 9]`  
+- **Output:** `Kid 4 collected the most candies (9 candies).`  
+
+#### **2. Odd or Even Party**  
+- **Scenario:** Check how many numbers in the array are odd and how many are even.  
+- **Input Example:** `[11, 20, 31, 42, 55]`  
+- **Output:** `Odd: 3, Even: 2`  
+
+#### **3. Music Playlist Shuffle**  
+- **Scenario:** Shuffle the array of songs randomly.  
+- **Input Example:** `["Song1", "Song2", "Song3", "Song4"]`  
+- **Output:** `["Song3", "Song1", "Song4", "Song2"]`  
+
+#### **4. Reverse the Movie Reel**  
+- **Scenario:** Reverse the given array to simulate reversing a movie reel.  
+- **Input Example:** `[10, 20, 30, 40]`  
+- **Output:** `[40, 30, 20, 10]`  
+
+#### **5. Weather Forecast**  
+- **Scenario:** Given an array of temperatures, find the average temperature of the week.  
+- **Input Example:** `[30, 32, 31, 29, 33, 30, 28]`  
+- **Output:** `Average Temperature: 30.43`  
+
+#### **6. Find the Missing Plate**  
+- **Scenario:** A stack of numbered plates is missing one. Find the missing number.  
+- **Input Example:** `[1, 2, 4, 5]`  
+- **Output:** `Missing Plate: 3`  
+
+#### **7. Lucky Number Game**  
+- **Scenario:** Check if a number exists in the array and print its position.  
+- **Input Example:** Array: `[15, 23, 45, 67, 89]`, Lucky Number: `45`  
+- **Output:** `45 is at position 3.`  
+
+#### **8. Sorting the Guests**  
+- **Scenario:** Arrange an array of guest names alphabetically.  
+- **Input Example:** `["Alice", "Charlie", "Bob"]`  
+- **Output:** `["Alice", "Bob", "Charlie"]`  
+
+#### **9. Matrix Madness**  
+- **Scenario:** Print a 2D matrix in a spiral order.  
+- **Input Example:**  
+  ```
+  1  2  3  
+  4  5  6  
+  7  8  9  
+  ```  
+- **Output:** `[1, 2, 3, 6, 9, 8, 7, 4, 5]`  
+
+#### **10. Pancake Flip Challenge**  
+- **Scenario:** Given an array of pancake sizes, reverse the array to simulate flipping.  
+- **Input Example:** `[5, 3, 8, 6]`  
+- **Output:** `[6, 8, 3, 5]`  
+
+#### **11. Lights On, Lights Off**  
+- **Scenario:** Toggle elements between `0` and `1` in a binary array.  
+- **Input Example:** `[0, 1, 0, 1, 1]`  
+- **Output:** `[1, 0, 1, 0, 0]`  
+
+#### **12. Alien Number Translator**  
+- **Scenario:** Double all elements in an array to simulate an alien numbering system.  
+- **Input Example:** `[3, 6, 9]`  
+- **Output:** `[6, 12, 18]`  
+
+#### **13. Zookeeper's Dilemma**  
+- **Scenario:** Identify the unique animal count in an array.  
+- **Input Example:** `[\"Lion\", \"Tiger\", \"Lion\", \"Elephant\"]`  
+- **Output:** `3 unique animals.`  
+
+#### **14. Temperature Flip**  
+- **Scenario:** Convert an array of Celsius temperatures to Fahrenheit.  
+- **Input Example:** `[0, 20, 30]`  
+- **Output:** `[32, 68, 86]`  
+
+#### **15. Marathon Winner**  
+- **Scenario:** Find the runner with the fastest time from an array of finish times.  
+- **Input Example:** `[2.5, 3.1, 2.8, 3.0]`  
+- **Output:** `Runner 1 is the winner with a time of 2.5 hours.`  
+
+#### **16. Birthday Countdown**  
+- **Scenario:** Subtract `1` from each element to simulate days left until birthdays.  
+- **Input Example:** `[30, 15, 20]`  
+- **Output:** `[29, 14, 19]`  
+
+#### **17. Earthquake Alert**  
+- **Scenario:** Identify if there’s a value greater than a threshold in the array (e.g., Richter scale).  
+- **Input Example:** `[3.5, 4.2, 6.7, 2.8]`, Threshold: `5`  
+- **Output:** `Earthquake Detected: 6.7`  
+
+#### **18. Medal Distribution**  
+- **Scenario:** Sort scores to determine Gold, Silver, and Bronze medals.  
+- **Input Example:** `[8, 12, 10]`  
+- **Output:** `Gold: 12, Silver: 10, Bronze: 8`  
+
+#### **19. Mystery Number Count**  
+- **Scenario:** Count how many times a given number appears in an array.  
+- **Input Example:** `[3, 5, 3, 3, 7]`, Number: `3`  
+- **Output:** `3 appears 3 times.`  
+
+#### **20. Pixel Art**  
+- **Scenario:** Represent a simple 2D array as a grid of `*` or `.` based on 1s and 0s.  
+- **Input Example:**  
+  ```
+  1 0 1  
+  0 1 0  
+  1 1 1  
+  ```  
+- **Output:**  
+  ```
+  * . *  
+  . * .  
+  * * *  
+  ```  
 ### **Beginner Questions**
 1. **Find the Sum of Array Elements**
    - Input an array and calculate the sum of all elements.
