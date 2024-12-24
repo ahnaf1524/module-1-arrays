@@ -15,7 +15,7 @@
    - Check if a specific number exists in the array.
    - Example: `{10, 20, 30, 40}` → Input: `20` → Output: `Found`
 
-5. **Count the Frequency of Each Element**
+5. **Count the Frequency of Each Element** <i>(Solve after DSA)</i>
    - Count how many times each number appears in the array.
    - Example: `{1, 2, 2, 3, 3, 3}` → Output: `1:1, 2:2, 3:3`
 
