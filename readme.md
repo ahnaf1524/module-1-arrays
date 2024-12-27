@@ -251,6 +251,192 @@
     - Find the element that appears more than half the time in the array.
     - Example: `{1, 1, 2, 1}` → Output: `1`
 
+Here’s an updated version of your list with additional traversal and matrix-related questions included:
+
+---
+
+### **Traversal and Matrix Questions**
+
+#### **31. Diagonal Traversal of a Matrix**
+- **Scenario:** Print all elements of a 2D matrix diagonally.
+- **Input Example:**  
+  ```
+  1  2  3  
+  4  5  6  
+  7  8  9  
+  ```
+- **Output:** `[1, 2, 4, 7, 5, 3, 6, 8, 9]`
+
+#### **32. Boundary Traversal of a Matrix**
+- **Scenario:** Print the boundary elements of a matrix.
+- **Input Example:**  
+  ```
+  1  2  3  
+  4  5  6  
+  7  8  9  
+  ```
+- **Output:** `[1, 2, 3, 6, 9, 8, 7, 4]`
+
+#### **33. Transpose of a Matrix**
+- **Scenario:** Convert rows to columns and columns to rows.
+- **Input Example:**  
+  ```
+  1  2  3  
+  4  5  6  
+  ```
+- **Output:**  
+  ```
+  1  4  
+  2  5  
+  3  6  
+  ```
+
+#### **34. Search in a 2D Matrix**
+- **Scenario:** Search for a specific number in a 2D matrix where rows and columns are sorted.
+- **Input Example:**  
+  ```
+  1  3  5  
+  7  9  11  
+  ```
+  Target: `9`
+- **Output:** `Found at (1, 1)`
+
+#### **35. Rotate a Matrix by 90 Degrees**
+- **Scenario:** Rotate the given matrix clockwise by 90 degrees.
+- **Input Example:**  
+  ```
+  1  2  3  
+  4  5  6  
+  7  8  9  
+  ```
+- **Output:**  
+  ```
+  7  4  1  
+  8  5  2  
+  9  6  3  
+  ```
+
+#### **36. Add Two Matrices**
+- **Scenario:** Perform element-wise addition of two matrices.
+- **Input Example:**  
+  ```
+  Matrix A: 1  2  
+            3  4  
+  Matrix B: 5  6  
+            7  8  
+  ```
+- **Output:**  
+  ```
+  6  8  
+  10 12  
+  ```
+
+#### **37. Multiply Two Matrices**
+- **Scenario:** Multiply two matrices and find the resultant matrix.
+- **Input Example:**  
+  ```
+  Matrix A: 1  2  
+            3  4  
+  Matrix B: 5  6  
+            7  8  
+  ```
+- **Output:**  
+  ```
+  19  22  
+  43  50  
+  ```
+
+#### **38. Check if a Matrix is Symmetric**
+- **Scenario:** Determine if the matrix is symmetric around its diagonal.
+- **Input Example:**  
+  ```
+  1  2  3  
+  2  4  5  
+  3  5  6  
+  ```
+- **Output:** `Yes`
+
+#### **39. Find the Saddle Point in a Matrix**
+- **Scenario:** Find the element which is the minimum in its row but maximum in its column.
+- **Input Example:**  
+  ```
+  1  2  3  
+  4  5  6  
+  7  8  9  
+  ```
+- **Output:** `None`
+
+#### **40. Lower and Upper Triangular Matrices**
+- **Scenario:** Extract the lower and upper triangular matrices.
+- **Input Example:**  
+  ```
+  1  2  3  
+  4  5  6  
+  7  8  9  
+  ```
+- **Output:**  
+  Lower Triangle:  
+  ```
+  1  0  0  
+  4  5  0  
+  7  8  9  
+  ```
+  Upper Triangle:  
+  ```
+  1  2  3  
+  0  5  6  
+  0  0  9  
+  ```
+
+#### **41. Snake Pattern Traversal**
+- **Scenario:** Print elements of a matrix in a snake-like pattern.
+- **Input Example:**  
+  ```
+  1  2  3  
+  4  5  6  
+  7  8  9  
+  ```
+- **Output:** `[1, 2, 3, 6, 5, 4, 7, 8, 9]`
+
+#### **42. Count Zeros in a Matrix**
+- **Scenario:** Count the number of zeros in a 2D matrix.
+- **Input Example:**  
+  ```
+  1  0  0  
+  0  5  0  
+  0  0  9  
+  ```
+- **Output:** `6`
+
+#### **43. Check if a Matrix is Sparse**
+- **Scenario:** A matrix is sparse if the number of zero elements is greater than half of the total elements.
+- **Input Example:**  
+  ```
+  0  0  0  
+  0  5  0  
+  0  0  9  
+  ```
+- **Output:** `Yes`
+
+#### **44. Find Row with Maximum Ones**
+- **Scenario:** Identify the row with the highest number of ones in a binary matrix.
+- **Input Example:**  
+  ```
+  0  1  1  
+  1  1  1  
+  0  0  1  
+  ```
+- **Output:** `Row 2`
+
+#### **45. Spiral Matrix Generation**
+- **Scenario:** Create an `n x n` matrix with elements filled in a spiral order.
+- **Input Example:** `n = 3`
+- **Output:**  
+  ```
+  1  2  3  
+  8  9  4  
+  7  6  5  
+  ```
 ---
 
 ### **How to Solve These Problems**
